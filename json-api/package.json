@@ -1,0 +1,16 @@
+{
+  "name": "json-api",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "json-server --watch db.json --routes routes.json --port 3000 --delay 200"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.1",
+  "devDependencies": {
+    "json-server": "0.17.4"
+  }
+}
