@@ -1,79 +1,222 @@
 {
-    "games": [
-        {
-            "id": 0,
-            "name": "test",
-            "players": [],
-            "total_games": 0,
-            "amt_playing": 0,
-            "shooter": true,
-            "rounds": [
-                {
-                    "shooter": 0,
-                    "winner": 0,
-                    "tai": 0
-                }
-            ],
-            "p1": {
-                "wind": "dong",
-                "wins": 0,
-                "mantai": 0,
-                "zhimo": 0,
-                "shoot": 0,
-                "t_shoot_cost": 0,
-                "tai": 0,
-                "placement": 1,
-                "payout": 0
-            },
-            "p2": {
-                "wind": "nan",
-                "wins": 0,
-                "mantai": 0,
-                "zhimo": 0,
-                "shoot": 0,
-                "t_shoot_cost": 0,
-                "tai": 0,
-                "placement": 1,
-                "payout": 0
-            },
-            "p3": {
-                "wind": "xi",
-                "wins": 0,
-                "mantai": 0,
-                "zhimo": 0,
-                "shoot": 0,
-                "t_shoot_cost": 0,
-                "tai": 0,
-                "placement": 1,
-                "payout": 0
-            },
-            "p4": {
-                "wind": "bei",
-                "wins": 0,
-                "mantai": 0,
-                "zhimo": 0,
-                "shoot": 0,
-                "t_shoot_cost": 0,
-                "tai": 0,
-                "placement": 1,
-                "payout": 0
-            }
-        }
-    ],
-    "players": [
-        {
-            "id": 0,
-            "player": "test",
-            "games": [],
-            "total_games": 0,
-            "total_payouts": 0,
-            "win_rate": 0,
-            "mantai": 0,
-            "zhimo": 0,
-            "shoot": 0,
-            "t_shoot_lost": 0,
-            "tai": 0,
-            "placement": 0
-        }
-    ]
+  "games": [
+    {
+      "name": "test",
+      "curr_game": {
+        "wind": "dong",
+        "banker": "dong"
+      },
+      "end": false,
+      "amt_playing": "0.2",
+      "shooter": true,
+      "rounds": [],
+      "dong": {
+        "player": 0,
+        "wins": 0,
+        "mantai": 0,
+        "zhimo": 0,
+        "shoot": 0,
+        "t_shoot_cost": 0,
+        "tai": 0,
+        "placement": 1,
+        "payout": 0
+      },
+      "nan": {
+        "player": 0,
+        "wins": 0,
+        "mantai": 0,
+        "zhimo": 0,
+        "shoot": 0,
+        "t_shoot_cost": 0,
+        "tai": 0,
+        "placement": 1,
+        "payout": 0
+      },
+      "xi": {
+        "player": 0,
+        "wins": 0,
+        "mantai": 0,
+        "zhimo": 0,
+        "shoot": 0,
+        "t_shoot_cost": 0,
+        "tai": 0,
+        "placement": 1,
+        "payout": 0
+      },
+      "bei": {
+        "player": 0,
+        "wins": 0,
+        "mantai": 0,
+        "zhimo": 0,
+        "shoot": 0,
+        "t_shoot_cost": 0,
+        "tai": 0,
+        "placement": 1,
+        "payout": 0
+      },
+      "id": 0
+    },
+    {
+      "name": "game2",
+      "total_games": 0,
+      "amt_playing": "0.5",
+      "shooter": true,
+      "rounds": [],
+      "dong": {
+        "player": 0,
+        "wins": 0,
+        "mantai": 0,
+        "zhimo": 0,
+        "shoot": 0,
+        "t_shoot_cost": 0,
+        "tai": 0,
+        "placement": 1,
+        "payout": 0
+      },
+      "nan": {
+        "player": 1,
+        "wins": 0,
+        "mantai": 0,
+        "zhimo": 0,
+        "shoot": 0,
+        "t_shoot_cost": 0,
+        "tai": 0,
+        "placement": 1,
+        "payout": 0
+      },
+      "xi": {
+        "player": 2,
+        "wins": 0,
+        "mantai": 0,
+        "zhimo": 0,
+        "shoot": 0,
+        "t_shoot_cost": 0,
+        "tai": 0,
+        "placement": 1,
+        "payout": 0
+      },
+      "bei": {
+        "player": 3,
+        "wins": 0,
+        "mantai": 0,
+        "zhimo": 0,
+        "shoot": 0,
+        "t_shoot_cost": 0,
+        "tai": 0,
+        "placement": 1,
+        "payout": 0
+      },
+      "id": 1
+    },
+    {
+      "name": "test",
+      "total_games": 0,
+      "amt_playing": 0,
+      "shooter": true,
+      "rounds": [],
+      "dong": {
+        "player": 0,
+        "wins": 0,
+        "mantai": 0,
+        "zhimo": 0,
+        "shoot": 0,
+        "t_shoot_cost": 0,
+        "tai": 0,
+        "placement": 1,
+        "payout": 0
+      },
+      "nan": {
+        "player": 1,
+        "wins": 0,
+        "mantai": 0,
+        "zhimo": 0,
+        "shoot": 0,
+        "t_shoot_cost": 0,
+        "tai": 0,
+        "placement": 1,
+        "payout": 0
+      },
+      "xi": {
+        "player": 2,
+        "wins": 0,
+        "mantai": 0,
+        "zhimo": 0,
+        "shoot": 0,
+        "t_shoot_cost": 0,
+        "tai": 0,
+        "placement": 1,
+        "payout": 0
+      },
+      "bei": {
+        "player": 3,
+        "wins": 0,
+        "mantai": 0,
+        "zhimo": 0,
+        "shoot": 0,
+        "t_shoot_cost": 0,
+        "tai": 0,
+        "placement": 1,
+        "payout": 0
+      },
+      "id": 2
+    }
+  ],
+  "players": [
+    {
+      "id": 0,
+      "player": "dong",
+      "games": [],
+      "total_games": 0,
+      "total_payouts": 0,
+      "win_rate": 0,
+      "mantai": 0,
+      "zhimo": 0,
+      "shoot": 0,
+      "t_shoot_lost": 0,
+      "tai": 0,
+      "placement": 0
+    },
+    {
+      "player": "nan",
+      "games": [],
+      "total_games": 0,
+      "total_payouts": 0,
+      "win_rate": 0,
+      "mantai": 0,
+      "zhimo": 0,
+      "shoot": 0,
+      "t_shoot_lost": 0,
+      "tai": 0,
+      "placement": 0,
+      "id": 1
+    },
+    {
+      "player": "xi",
+      "games": [],
+      "total_games": 0,
+      "total_payouts": 0,
+      "win_rate": 0,
+      "mantai": 0,
+      "zhimo": 0,
+      "shoot": 0,
+      "t_shoot_lost": 0,
+      "tai": 0,
+      "placement": 0,
+      "id": 2
+    },
+    {
+      "player": "bei",
+      "games": [],
+      "total_games": 0,
+      "total_payouts": 0,
+      "win_rate": 0,
+      "mantai": 0,
+      "zhimo": 0,
+      "shoot": 0,
+      "t_shoot_lost": 0,
+      "tai": 0,
+      "placement": 0,
+      "id": 3
+    }
+  ]
 }

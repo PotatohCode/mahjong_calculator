@@ -9,13 +9,13 @@ export default function App() {
       <Link to='/creategame'>
         <Button variant="contained">New Game</Button>
       </Link>
-      <Link to='/games'>
+      <Link to='/addplayer'>
         <Button variant="contained">Add Player</Button>
       </Link>
-      {/* <Link to='/games'>
+      <Link to='/gamelist'>
         <Button variant="contained">Games</Button>
       </Link>
-      <Link to='/players'>
+      {/* <Link to='/players'>
         <Button variant="contained">Players</Button>
       </Link> */}
     </Box>
